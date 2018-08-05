@@ -1,0 +1,144 @@
+.header{
+    position: fixed;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+    height: 69px;
+    top: 0px;
+}
+
+.header img{
+    display: block;
+    height: 50px;
+    width: auto;
+    margin: auto 0 auto 10px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin: auto 10px auto;
+}
+
+body{
+    background-color: black;
+    margin: 0 auto;
+}
+
+.nav li{
+    display: inline-flex;
+    align-content: space-between;
+    color: seashell;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.mission{
+    width: 1200px;
+    height: 700px;
+    padding-top: 70px;
+    z-index: -1;
+    margin: 0 auto;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.missiontext{
+    width: 1200px;
+    background-color: black;
+    color: seashell;
+    margin: auto auto;
+    text-align: center;
+}
+
+h1, h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+}
+
+.month{
+    display: block;
+    height: 700px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.monthheader{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.monthteacontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.monthtea{
+    display: block;
+    width: 300px;
+    padding: 10px;
+}
+
+.monthtea img{
+    width: 300px;
+    height: auto;
+}
+
+.monthtea h4{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.locations{
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.locations h3, p{
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.locations h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.locationsflexcontainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.locationsflexitem{
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact{
+    text-align: center;
+    color: seashell;
+    font-family: arial;
+}
+
+footer{
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+}
